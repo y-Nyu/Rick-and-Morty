@@ -1,0 +1,23 @@
+.about{
+    position: relative;
+    width: 60%;
+    padding: 70px 0px;
+    background-color: gray;
+    border-radius: 50px;
+}
+.about img {
+    height: auto;
+    width: 420px;
+    clip-path: circle();
+}
+.text {
+    width: 550px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

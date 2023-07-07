@@ -1,0 +1,52 @@
+/* .backgroundImage {
+    position: relative;
+    top: 100px;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(./portal-rick-and-morty.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+  } 
+ */
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:150vh;
+    background-image: url(./portal-rick-and-morty.gif) ;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .characterCard {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .characterImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .characterName {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .characterDetails {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }

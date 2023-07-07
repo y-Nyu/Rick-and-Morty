@@ -1,0 +1,123 @@
+.divCard {
+  width: 300px;
+  height: 405px;
+  position: relative;
+  background: rgb(14, 144, 14);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all ease 0.3s;
+}
+
+.botFav {
+  border-radius: 20px;
+  font-size: 20px;
+  
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  
+  background-color: rgb(255, 183, 0);
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.botFav:hover {
+  background-color: #257e28;
+} 
+
+.buttonCard {
+  border-radius: 20px;
+  font-size: 20px;
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  background-color: rgb(255, 183, 0);
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.buttonCard:hover {
+  background-color: #257e28;
+}
+
+.name {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  bottom: 100px;
+  left: 20px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: rgb(255, 183, 0);
+}
+.div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+
+
+/* .card {
+  margin: 15px;
+  background-color: #f6f9f3;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.cardButton {
+  width: fit-content;
+  height: fit-content;
+  background-color: #303055;
+  border-radius: 0.5em;
+  color: #f6f9f3;
+  font-weight: bold;
+  border-color: #303055;
+  margin: 4px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cardButton:hover {
+  background-color: #36445c;
+}
+
+.cardImage {
+  width: fit-content;
+  border-radius: 0.5em;
+  margin: 5px;
+}
+
+.cardTitle {
+  padding-top: 5px;
+  margin: 10px;
+  color: #014421;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.cardDescription {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 0.7em;
+  margin-bottom: 5px;
+}
+
+.cardText {
+  margin-right: 0.6em;
+  font-family: "Courier New", Courier, monospace;
+  color: #121924;
+}
+
+.green {
+  color: #43c53c;
+  font-weight: bolder;
+}
+
+.red {
+  color: #ca3433;
+  font-weight: bolder;
+} */

@@ -1,0 +1,32 @@
+.divNav {
+
+}
+
+.bar {
+    color: white;
+}
+
+/* Oredenar la barra de navegacion */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+.navLink {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: rgb(255, 183, 0);
+    cursor: pointer;
+}
+.navLink:hover {
+    background-color: #257e28;
+  }
